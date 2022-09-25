@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML BASICS</title>
+    <style>
+        .box{
+            border: 5px solid black;
+            height: 700px; 
+            width: auto;
+            background-color:#ffe6e6;
+            
+        }
+        #box1{
+            border: 5px solid red;
+            height: 50px;
+            width: auto;
+            margin: 10px;
+        }
+        nav ul li{
+            justify-content: center;
+            display: flex;
+            display: inline;
+            align-items: center;
+            float: left;
+            margin-left: 250px;
+            
+            
+        }
+        #example {
+        width: 150px;
+        margin: 85px auto;
+        margin-left:10px;
+        margin-top: 50px;
+
+      }
+      h3 {
+        text-align: center;
+        color: black;
+        font-size: 80px;
+        letter-spacing: 6px;
+        font-weight: 300;
+        margin: 0;
+        line-height: 0;
+        animation: glitch1 0.5s infinite;
+      }
+      h3:nth-child(2) {
+        color:red;
+        animation: glitch2 1.0s infinite;
+      }
+      h3:nth-child(3) {
+        color: #ff94eb;
+        animation: glitch3 1.0s infinite;
+      }
+      @keyframes glitch1 {
+        0% {
+          transform: none;
+          opacity: 1;
+        }
+        50% {
+          transform: skew(-2deg, 0.6deg);
+          opacity: 0.75;
+        }
+        100% {
+          transform: none;
+          opacity: 1;
+        }
+      }
+      @keyframes glitch2 {
+        0% {
+          transform: none;
+          opacity: 0.25;
+        }
+        50% {
+          transform: translate(-3px, -1px);
+          opacity: 0.5;
+        }
+        100% {
+          transform: none;
+          opacity: 0.25;
+        }
+      }
+      @keyframes glitch3 {
+        0% {
+          transform: none;
+          opacity: 0.25;
+        }
+        50% {
+          transform: translate(3px, 1px);
+          opacity: 0.5;
+        }
+        100% {
+          transform: none;
+          opacity: 0.25;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div id="box1">
+            <nav>
+                <ul>
+                    <li><a href="content1.html">Content</a></li>
+                    <li><a href="content11.html"><space>Example</space></a></li>
+                    <li><a href="About1.html">About</a></li>
+                    <li><a href="FAQ1.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div><img src="beautiful1.jpg" alt=""height="500px" width="500px"style="margin:60px 20px 20px 980px;">
+    </div><h1 style="margin:-490px 0px 20px 400px ;color:hsl(240,100%,50%);font-size: 75px;font-family: 'Courier New', Courier, monospace;">HTML BASICS<br><div id="for" style="margin-left:150px;">FOR </div> <div id="example" style="margin-bottom:1000px;"><h3>BEGINNERS</h3>   <h3>BEGINNERS</h3>
+        <h3>BEGINNERS</h3>
+        <h3>BEGINNERS</h3>
+    </div></h1>
+    
+</body>
+</html>
